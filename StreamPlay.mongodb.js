@@ -7,8 +7,6 @@
 // Professor: Brian Samuel
 // ======================================================
 
-
-// BANCO DE DADOS
 use("StreamPlayDB");
 
 db.Usuarios.deleteMany({ projeto: "StreamPlay" });
